@@ -1,14 +1,7 @@
 class BookDatabase {
     public static void main(String[] args) {
-        Book book1 = new Book();
-        book1.title = "War and Peace";
-        book1.author = "Leo Tolstoy";
-        book1.year = 1867;
-
-        Book book2 = new Book();
-            book2.title = "Master and Margarita";
-            book2.author = "Mikhail Bulgakov";
-            book2.year = 1966;
+        Book book1 = new Book("War and Peace", "Leo Tolstoy", 1966 );
+        Book book2 = new Book("Master and Margarita", "Mikhail Bulgakov", 1966);
 
         System.out.println("Book 1:");
         System.out.println("Title: " + book1.title);
